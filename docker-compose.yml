@@ -1,6 +1,7 @@
 version: "2"
 services:
   mindustry:
+    restart: unless-stopped
     container_name: mindustry
     build: .
     image: mindustryserver
