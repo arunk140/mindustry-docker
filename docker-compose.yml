@@ -1,0 +1,8 @@
+version: "2"
+services:
+  mindustry:
+    container_name: mindustry
+    build: .
+    image: mindustryserver
+    ports:
+      - "6567:6567/udp"
