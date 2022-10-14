@@ -14,5 +14,5 @@ docker compose up -d
 - Rebuild Docker Image
 
 ```
-docker-compose up --build -d
+docker compose up --build -d
 ```
